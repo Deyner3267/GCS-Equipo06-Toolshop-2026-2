@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Suite Screenplay de Toolshop - S13" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-25T17:11:56" hostname="DEYNER" time="16.039">
+  <properties/>
+  <testcase name="CP-02 · Login con contraseña incorrecta" classname="com.equipo06.toolshop.tests.PruebasToolshopTest" time="7.867"/>
+  <testcase name="CP-18 · Agregar un producto al carrito y verificar el contador" classname="com.equipo06.toolshop.tests.PruebasToolshopTest" time="4.945"/>
+  <testcase name="CP-01 · Login válido con la cuenta de cliente" classname="com.equipo06.toolshop.tests.PruebasToolshopTest" time="3.227"/>
+  <system-out><![CDATA[CP-02 OK | Mensaje: Invalid email or password
+Evidencia guardada: evidencias/cp02LoginConContrasenaIncorrecta.png
+CP-18 OK | Cantidad del carrito: 1
+Evidencia guardada: evidencias/cp18AgregarProductoAlCarrito.png
+CP-01 OK | URL final: https://practicesoftwaretesting.com/account
+Evidencia guardada: evidencias/cp01LoginValido.png
+]]></system-out>
+  <system-err><![CDATA[oct 25, 2026 12:12:01 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 155
+oct 25, 2026 12:12:01 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTENCIA: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+oct 25, 2026 12:12:04 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 155
+oct 25, 2026 12:12:04 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTENCIA: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+oct 25, 2026 12:12:09 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 155
+oct 25, 2026 12:12:09 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTENCIA: Unable to find version of CDP to use for 155.0.8059.85. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

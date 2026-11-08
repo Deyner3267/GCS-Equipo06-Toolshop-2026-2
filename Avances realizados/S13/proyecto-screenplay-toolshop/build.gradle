@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.equipo06'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+dependencies {
+    testImplementation 'net.serenity-bdd:serenity-core:4.2.34'
+    testImplementation 'net.serenity-bdd:serenity-screenplay:4.2.34'
+    testImplementation 'net.serenity-bdd:serenity-screenplay-webdriver:4.2.34'
+    testImplementation 'net.serenity-bdd:serenity-ensure:4.2.34'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.27.0'
+    testImplementation 'org.awaitility:awaitility:4.2.2'
+    testImplementation 'org.slf4j:slf4j-simple:2.0.16'
+}
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+    maxParallelForks = 1
+    testLogging {
+        events 'passed', 'failed', 'skipped'
+        exceptionFormat 'full'
+        showStandardStreams = true
+    }
+}
