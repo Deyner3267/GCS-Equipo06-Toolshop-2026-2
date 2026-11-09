@@ -9,6 +9,19 @@ Repositorio de evidencias del proyecto de **Gestión y Calidad del Software** so
 - **Equipo 06:** Camilo Vides · Luis Tapia · Deyner Ortiz
 - **Repositorio:** <https://github.com/Deyner3267/GCS-Equipo06-Toolshop-2026-2>
 
+## 📁 Evidencias organizadas
+
+Toda la evidencia está reunida en la carpeta **[Evidencias](Evidencias/)**:
+
+- **[Informes](Evidencias/01_Informes/)** — Avance 1, Avance 2, S11, S12, S13 y S14.
+- **[Matrices y Excel](Evidencias/02_Matrices_y_Excel/)** — tablero KPI, matriz de 30 casos y plan de calidad.
+- **[Capturas](Evidencias/03_Capturas/)** — automatizadas y manuales de la S13.
+- **[Reportes de automatización](Evidencias/04_Reportes_Automatizacion/)** — HTML y XML de Gradle.
+- **[Proyecto Screenplay](Evidencias/05_Proyecto_Screenplay/)** — código Java, Gradle y Screenplay.
+- **[S15](Evidencias/06_S15_Ejecucion/)** y **[S16](Evidencias/07_S16_Informe_y_Sustentacion/)** — en construcción.
+
+El índice completo, con enlaces directos a cada archivo, está en **[Evidencias/README.md](Evidencias/README.md)**.
+
 ## Estado del proyecto
 
 | Entregable | Contenido | Estado |
@@ -26,6 +39,7 @@ Repositorio de evidencias del proyecto de **Gestión y Calidad del Software** so
 
 ```text
 .
+├── Evidencias/                    Vista curada: informes, Excel, capturas, reportes y proyecto
 ├── Avances enviados/              Avance 1 y Avance 2 en PDF
 ├── Avances realizados/
 │   ├── S11/                       Métricas de producto
